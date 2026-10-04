@@ -2,7 +2,7 @@
 
 Rejection-reason classification and duplicate retrieval for UK Parliament e-petitions (2015–2026).
 
-CS5998 Capstone Project – MSc in Data Science & Artificial Intelligence, University of Moratuwa
+CS5998 Capstone Project – Master of Data Science & Artificial Intelligence, University of Moratuwa
 N.V.Y. Priyashan (268481U)
 
 ## Problem
