@@ -1,0 +1,20 @@
+Total petitions: 128077
+  2015-17  closed     10,950
+  2015-17  rejected   20,780
+  2017-19  closed      8,152
+  2017-19  rejected   19,948
+  2019-24  closed     13,752
+  2019-24  rejected   38,280
+  current  closed      5,234
+  current  open        2,293
+  current  rejected    8,688
+Rejection reasons:
+  duplicate           44,883
+  irrelevant          19,347
+  no-action           16,447
+  honours              3,035
+  already-happening    2,444
+  fake-name              829
+  local                  654
+  operational             30
+  foi                     27
