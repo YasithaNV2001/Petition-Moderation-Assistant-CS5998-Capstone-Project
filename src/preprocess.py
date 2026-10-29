@@ -31,7 +31,9 @@ LINK_RE = re.compile(r"petitions/+(\d+)")                  # also matches the br
 
 def clean_text(s):
     """Clean one text field. Casing is kept (the transformer needs it)."""
-    s = html.unescape(s or "")         # "&amp;" -> "&"
+    if not isinstance(s, str):         # empty field: None, or NaN in pandas 3 (NaN counts as True, so "s or ''" fails)
+        s = ""
+    s = html.unescape(s)               # "&amp;" -> "&"
     s = ANGLE_RE.sub(r" \1 ", s)       # "<Daily Mail>" -> "Daily Mail": drop the brackets, keep the words
     s = URL_RE.sub("[URL]", s)         # links carry no meaning for the models
     s = INVISIBLE_RE.sub(" ", s)
@@ -55,7 +57,9 @@ def make_label(state, rejection_code):
 
 def linked_ids(details):
     """Petition IDs linked in a rejection message, without repeats."""
-    return sorted({int(x) for x in LINK_RE.findall(details or "")})
+    if not isinstance(details, str):   # no message: None, or NaN in pandas 3
+        return []
+    return sorted({int(x) for x in LINK_RE.findall(details)})
 
 
 def leakage_check(X, allowed=MODEL_INPUTS):
