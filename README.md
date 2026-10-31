@@ -14,16 +14,34 @@ About two in every three petitions submitted to the UK Parliament petitions webs
 - Source: https://petition.parliament.uk (JSON API and CSV exports)
 - Licence: Open Government Licence v3.0
 - Coverage: 2015–17, 2017–19, 2019–24 and the current Parliament (128,077 petitions, snapshot 25 Sep 2026)
-- The data is not stored in git. Run `src/collect.py` to download it.
+- The data is not stored in git. Run `src/collect.py` to download it. The results use the snapshot of 25 Sep 2026.
+  The site keeps changing, so a new download will differ slightly; `02_cleaning` checks the snapshot's SHA-256 hash.
 
 ## How to run
 
-Python 3.11, standard library only (for now).
+Python 3.12 (tested with 3.12.10 on Windows 11). Create a virtual environment in the repo folder and install the
+pinned packages:
 
 ```
-python src/collect.py      # about 1 hour, writes data/petitions.jsonl
-python src/check_data.py   # prints petition counts and rejection reasons
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
+On macOS or Linux, use `.venv/bin/python` instead of `.venv\Scripts\python.exe`.
+
+Data collection (Milestone 1):
+
+```
+.venv\Scripts\python.exe src\collect.py      # about 1 hour, writes data/petitions.jsonl
+.venv\Scripts\python.exe src\check_data.py   # prints petition counts and rejection reasons
+```
+
+Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Code: Select Kernel → `.venv`):
+
+| Notebook | What it does |
+|---|---|
+| `notebooks/02_cleaning.ipynb` | 7-class labels, gold duplicate pairs, text cleaning, leakage test |
+| `notebooks/04_split.ipynb` | train / validation / test split by decision time, time-aware candidate pools |
 
 ## Status
 
