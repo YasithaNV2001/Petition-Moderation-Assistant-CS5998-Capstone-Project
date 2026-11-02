@@ -1,0 +1,51 @@
+{
+  "mode": "real run",
+  "date_utc": "2026-11-01T14:59:43+00:00",
+  "gpu": "Tesla T4",
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.21.0",
+    "sentence-transformers": "5.7.0",
+    "scikit-learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "code_commit": "d6f00ed",
+  "settings": {
+    "model": "distilbert/distilroberta-base",
+    "embedding_models": {
+      "minilm": "sentence-transformers/all-MiniLM-L6-v2",
+      "mpnet": "sentence-transformers/all-mpnet-base-v2"
+    },
+    "max_len": 256,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "max_epochs": 3,
+    "patience": 1,
+    "warmup_share": 0.06,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "fp16": true,
+    "class_weights": {
+      "published": 0.4728,
+      "duplicate": 0.3968,
+      "irrelevant": 0.8983,
+      "no-action": 1.0825,
+      "honours": 5.6243,
+      "already-happening": 7.4345,
+      "local": 62.7585
+    }
+  },
+  "rows": {
+    "vectors": 128077,
+    "train": 116417,
+    "val": 4030
+  },
+  "val_macro_f1": 0.556,
+  "minutes": {
+    "vectors_minilm": 2.4,
+    "vectors_mpnet": 5.8,
+    "fine_tuning": 27.0
+  }
+}
