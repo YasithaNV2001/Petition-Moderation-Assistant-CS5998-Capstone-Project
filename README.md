@@ -42,6 +42,11 @@ Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Co
 |---|---|
 | `notebooks/02_cleaning.ipynb` | 7-class labels, gold duplicate pairs, text cleaning, leakage test |
 | `notebooks/04_split.ipynb` | train / validation / test split by decision time, time-aware candidate pools |
+| `notebooks/colab_gpu.ipynb` | Google Colab, T4 GPU: sentence vectors (MiniLM, mpnet) and DistilRoBERTa fine-tuning |
+| `notebooks/05_baseline_classifier.ipynb` | Google Colab, CPU runtime (needs about 4 GB of RAM): TF-IDF + LinearSVC baseline with Platt calibration |
+
+The two Colab notebooks read the files of `data/processed/` from a Google Drive folder (`DRIVE_DIR` in their first
+cell), take `src/` from this repository and write their outputs back to Drive.
 
 ## Status
 

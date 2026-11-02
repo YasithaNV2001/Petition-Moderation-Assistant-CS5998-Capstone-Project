@@ -1,0 +1,76 @@
+{
+  "notebook": "05_baseline_classifier",
+  "date_utc": "2026-11-02T12:31:07+00:00",
+  "runtime": "Colab CPU, 2 cores",
+  "peak_memory_gb": 4.3,
+  "versions": {
+    "python": "3.13.18",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.16.3",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3"
+  },
+  "code_commit": "6bb8e61",
+  "settings": {
+    "word_ngrams": [
+      1,
+      2
+    ],
+    "char_ngrams": [
+      3,
+      5
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "class_weight": "balanced",
+    "C_values": [
+      0.1,
+      0.3,
+      1,
+      3
+    ],
+    "calibration": "Platt (sigmoid) on validation",
+    "seed": 42
+  },
+  "features": {
+    "word": 678715,
+    "char": 264430,
+    "train_nonzeros": 101365185
+  },
+  "c_tuning": [
+    {
+      "C": 0.1,
+      "val_macro_f1": 0.4452,
+      "val_accuracy": 0.6581,
+      "converged": true,
+      "minutes": 1.1
+    },
+    {
+      "C": 0.3,
+      "val_macro_f1": 0.4367,
+      "val_accuracy": 0.661,
+      "converged": true,
+      "minutes": 1.3
+    },
+    {
+      "C": 1,
+      "val_macro_f1": 0.4254,
+      "val_accuracy": 0.6583,
+      "converged": true,
+      "minutes": 2.5
+    },
+    {
+      "C": 3,
+      "val_macro_f1": 0.4085,
+      "val_accuracy": 0.6526,
+      "converged": true,
+      "minutes": 5.5
+    }
+  ],
+  "best_C": 0.1,
+  "val_macro_f1": 0.4452,
+  "minutes": {
+    "tfidf": 2.6,
+    "svc_tuning": 10.4
+  }
+}
