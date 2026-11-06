@@ -57,6 +57,13 @@ class BM25Index:
         return (idf * tf * (k1 + 1) / (tf + length_norm[:, None])).sum(axis=1)
 
 
+def hybrid_scores(bm25, cosine, alpha):
+    """alpha x BM25 + (1 - alpha) x cosine, with BM25 divided by the pool's best BM25 score so both are about 0-1."""
+    top = bm25.max() if len(bm25) else 0
+    scaled = bm25 / top if top > 0 else bm25
+    return alpha * scaled + (1 - alpha) * cosine
+
+
 def gold_rank(scores, pool_ids, gold_ids):
     """Rank (1 = top) of the best-scored correct petition, or inf if no correct petition is in the pool.
 
