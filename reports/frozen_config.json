@@ -1,0 +1,54 @@
+{
+  "frozen_on_validation": true,
+  "classes": [
+    "published",
+    "duplicate",
+    "irrelevant",
+    "no-action",
+    "honours",
+    "already-happening",
+    "local"
+  ],
+  "classification": {
+    "final_model": "distilroberta+similarity",
+    "tfidf_svc_C": 0.1,
+    "temperature": 1.4757,
+    "fusion_C": {
+      "tfidf_svc": 1,
+      "tfidf_svc+similarity": 0.1,
+      "distilroberta": 1,
+      "distilroberta+similarity": 10
+    },
+    "fusion_class_weight": null,
+    "similarity_columns": [
+      "sim_top1",
+      "sim_top5_mean",
+      "sim_gap",
+      "pool_size"
+    ],
+    "similarity_vectors": "all-MiniLM-L6-v2",
+    "pool_size_clip": [
+      1638,
+      2080
+    ]
+  },
+  "retrieval": {
+    "final_method": "hybrid",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "bm25_k1": 2.0,
+    "bm25_b": 0.75,
+    "alpha": 0.1
+  },
+  "review": {
+    "threshold": 0.75,
+    "target_accuracy": 0.9
+  },
+  "evaluation": {
+    "ece_bins": 15,
+    "bootstrap_resamples": 1000
+  },
+  "seeds": {
+    "random_state": 42,
+    "folds": "StratifiedKFold(5, shuffle=True, random_state=42)"
+  }
+}

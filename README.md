@@ -46,6 +46,7 @@ Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Co
 | `notebooks/05_baseline_classifier.ipynb` | Google Colab, CPU runtime (needs about 4 GB of RAM): TF-IDF + LinearSVC baseline with Platt calibration |
 | `notebooks/06_baseline_retrieval.ipynb` | BM25 duplicate retrieval over the time-aware pools, Recall@k and MRR on validation |
 | `notebooks/07_embedding_retrieval.ipynb` | duplicate retrieval with MiniLM / mpnet sentence vectors and a BM25 + MiniLM hybrid, compared with BM25 |
+| `notebooks/08_fusion.ipynb` | calibration, similarity features, fusion model, 2×2 comparison, review threshold, frozen configuration |
 
 The two Colab notebooks read the files of `data/processed/` from a Google Drive folder (`DRIVE_DIR` in their first
 cell), take `src/` from this repository and write their outputs back to Drive.

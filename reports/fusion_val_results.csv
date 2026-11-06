@@ -1,0 +1,9 @@
+base,version,macro_f1,accuracy,duplicate_f1,ece,C_per_fold
+tfidf_svc,raw,0.4452,0.6581,0.5616,,
+tfidf_svc,calibrated,0.4785,0.6928,0.6484,0.0541,
+tfidf_svc,LR 7 probabilities,0.5046,0.7035,0.6523,0.0243,"[0.1, 1, 0.1, 10, 1]"
+tfidf_svc,LR 7 + 4 similarity,0.5592,0.7454,0.7379,0.0196,"[0.1, 1, 0.1, 1, 1]"
+distilroberta,raw,0.556,0.6834,0.5486,,
+distilroberta,calibrated,0.556,0.6834,0.5486,0.049,
+distilroberta,LR 7 probabilities,0.5752,0.7355,0.6669,0.0282,"[10, 10, 1, 1, 10]"
+distilroberta,LR 7 + 4 similarity,0.6065,0.7767,0.7562,0.0155,"[1, 1, 0.1, 10, 10]"
