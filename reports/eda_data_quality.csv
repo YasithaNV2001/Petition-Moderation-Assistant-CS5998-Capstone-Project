@@ -1,0 +1,14 @@
+check,count,note
+petitions in the snapshot,128077,"25 Sep 2026, SHA-256 checked in 02"
+dropped: fake-name / operational / foi,886,"{'fake-name': 829, 'operational': 30, 'foi': 27}"
+excluded: decided after 31 Aug 2026,562,not in train / validation / test
+"published, then rejected (counted as rejected)",49,never a pool member
+texts with a link replaced by [URL],6504,"all 128,077; links carry no meaning for the models"
+no additional details (in scope),26331,the field is optional
+likely not English (in scope),5,"kept, reported"
+duplicates without a valid link,179,"kept for classification, not for retrieval"
+duplicates with several valid links,6833,any of them counts as correct
+"identical texts, different outcomes: only published and duplicate (groups)",54,"in scope; a text is a duplicate while a similar petition is open, and can be published at another time"
+"identical texts, different outcomes: other mixes (groups)",20,in scope; unexplained label noise
+rejected more than 90 days after creation,357,"all 128,077; M1 audit: 348; longest 4.5 years (#313513)"
+published more than 90 days after creation,436,"all 128,077; slow publications"

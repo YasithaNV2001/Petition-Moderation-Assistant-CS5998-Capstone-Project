@@ -1,0 +1,8 @@
+label,petitions,q1 words,median words,q3 words,max words,no additional details (%)
+published,37029,71.0,113.0,136.0,217.0,17.3
+duplicate,43069,59.0,95.0,132.0,226.0,24.9
+irrelevant,18791,58.0,95.0,133.0,214.0,24.0
+no-action,15818,62.0,105.0,136.0,220.0,20.2
+honours,2999,43.0,63.0,102.5,204.0,33.9
+already-happening,2328,75.0,111.0,135.0,214.0,5.8
+local,413,78.0,111.0,131.0,170.0,4.4

@@ -41,6 +41,7 @@ Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Co
 | Notebook | What it does |
 |---|---|
 | `notebooks/02_cleaning.ipynb` | 7-class labels, gold duplicate pairs, text cleaning, leakage test |
+| `notebooks/03_eda.ipynb` | exploratory analysis: classes over time, text length, distinctive words, moderation lag, duplicate similarity, data quality |
 | `notebooks/04_split.ipynb` | train / validation / test split by decision time, time-aware candidate pools |
 | `notebooks/colab_gpu.ipynb` | Google Colab, T4 GPU: sentence vectors (MiniLM, mpnet) and DistilRoBERTa fine-tuning |
 | `notebooks/05_baseline_classifier.ipynb` | Google Colab, CPU runtime (needs about 4 GB of RAM): TF-IDF + LinearSVC baseline with Platt calibration |
