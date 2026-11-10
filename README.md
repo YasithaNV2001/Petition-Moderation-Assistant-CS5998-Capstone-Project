@@ -9,6 +9,14 @@ N.V.Y. Priyashan (268481U)
 
 About two in every three petitions submitted to the UK Parliament petitions website are rejected, and roughly half of those are duplicates of a petition that is already open. Moderators check every petition by hand. This project uses the petition text to (1) predict the outcome and rejection reason, and (2) find the open petitions a new petition duplicates. The moderator keeps the final decision. No external LLM API is used.
 
+## Architecture
+
+![System architecture](reports/figures/architecture.png)
+
+Top: how the system is built once, notebook by notebook. Bottom: what happens to each new petition. Blue steps
+belong to task A (outcome classification), orange steps to task B (duplicate retrieval). The editable source is
+`reports/figures/architecture.drawio` (open it in draw.io).
+
 ## Data
 
 - Source: https://petition.parliament.uk (JSON API and CSV exports)
