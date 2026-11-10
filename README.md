@@ -17,6 +17,36 @@ Top: how the system is built once, notebook by notebook. Bottom: what happens to
 belong to task A (outcome classification), orange steps to task B (duplicate retrieval). The editable source is
 `reports/figures/architecture.drawio` (open it in draw.io).
 
+## Results
+
+Measured once on the test split: petitions decided January–August 2026, which no model or setting saw before
+(all settings were chosen on validation and frozen first). Details in `notebooks/09_final_evaluation.ipynb` and
+`notebooks/10_error_analysis.ipynb`.
+
+**Task A: predict the outcome (7 classes, 6,182 test petitions)**
+
+| Model | Macro-F1 [95% CI] | Accuracy |
+|---|---|---|
+| TF-IDF + linear SVM (baseline) | 0.415 [0.391–0.435] | 63.7% |
+| Fine-tuned DistilRoBERTa | 0.521 [0.497–0.544] | 68.0% |
+| DistilRoBERTa + similarity features, calibrated fusion (**final**) | **0.583** [0.558–0.606] | **76.0%** |
+
+**Task B: find the duplicated open petition (1,728 test duplicates)**
+
+| Method | Recall@1 | Recall@5 | MRR |
+|---|---|---|---|
+| BM25 (baseline) | 0.544 | 0.864 | 0.682 |
+| MiniLM sentence vectors | 0.670 | 0.927 | 0.785 |
+| Hybrid BM25 + MiniLM (**final**) | 0.685 | **0.941** | 0.798 |
+
+- **Honest confidence:** the expected calibration error falls from 0.137 to 0.014. With a review threshold of 0.75,
+  61% of petitions are not flagged and 89% of those are correct, while 72% of all errors are flagged for review.
+- **The two tasks support each other:** for 96.8% of the duplicates the classifier misses, the correct open petition
+  is still in the top-5 list the moderator sees.
+- **Each improvement is significant** (McNemar test, p < 0.001); the confidence intervals come from 1,000 bootstrap samples.
+- **Where it fails:** most remaining errors need knowledge that is not in the petition text, such as who is
+  responsible for an issue or what the Government is already doing.
+
 ## Data
 
 - Source: https://petition.parliament.uk (JSON API and CSV exports)
@@ -58,6 +88,7 @@ Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Co
 | `notebooks/08_fusion.ipynb` | calibration, similarity features, fusion model, 2×2 comparison, review threshold, frozen configuration |
 | `notebooks/colab_test_logits.ipynb` | Google Colab: the fine-tuned DistilRoBERTa scores the test and out-of-scope petitions (labels are not read) |
 | `notebooks/09_final_evaluation.ipynb` | the one evaluation on the test split: 2×2 comparison with confidence intervals, McNemar tests, calibration, review flag, retrieval on both pools, out-of-scope test |
+| `notebooks/10_error_analysis.ipynb` | where and why the final model is wrong on test: confusions, review flag, duplicates rescued by retrieval, 105 errors read and categorised |
 
 The three Colab notebooks (`colab_gpu`, `05_baseline_classifier`, `colab_test_logits`) read the files of
 `data/processed/` from a Google Drive folder (`DRIVE_DIR` in their first cell), take `src/` from this repository and
@@ -65,6 +96,8 @@ write their outputs back to Drive.
 
 ## Status
 
-- [x] Milestone 1 – Project definition and data collection
-- [ ] Milestone 2 – Preprocessing, EDA, baseline and improved models
-- [ ] Milestone 3 – Final evaluation, dashboard and report
+- [x] Project definition and data collection (Milestone 1)
+- [x] Preprocessing, EDA, baseline and improved models, evaluated on validation
+- [x] Final evaluation on the test split and error analysis
+- [ ] Moderation pipeline (Excel queue) and Streamlit app (in progress)
+- [ ] Final report

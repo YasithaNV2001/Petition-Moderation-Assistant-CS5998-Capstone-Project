@@ -1,0 +1,10 @@
+category,errors,flagged,share
+duplicate missed: clear match,21,0.67,0.2
+duplicate missed: loose link,7,1.0,0.067
+false duplicate: related topic,12,0.92,0.114
+who is responsible,22,0.64,0.21
+needs current policy knowledge,10,0.8,0.095
+vague or no clear request,15,0.67,0.143
+honours and appointments,5,0.8,0.048
+questionable label,10,0.4,0.095
+no clear reason,3,1.0,0.029

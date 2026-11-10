@@ -1,0 +1,106 @@
+id,label,predicted,confidence,flagged,title,category,note
+760489,published,duplicate,0.5764540958618172,True,Extend Paid Maternity Leave to 18 Months to Support Child Development.,false duplicate: related topic,"related open petition on maternity pay, different ask"
+757859,published,duplicate,0.615959936378178,True,Introduce Romanian into the GCSE Curriculum,questionable label,"near-identical open petition, yet published"
+775810,published,no-action,0.45478349263606144,True,Hold social media companies accountable for publishing scam investment adverts,no clear reason,clear ask; predicted no-action at low confidence
+758921,published,duplicate,0.5888163662513101,True,Reduce the age that the cbt can be done for 50cc to 14 years old,false duplicate: related topic,"related open petition on driving age, different ask"
+767326,published,duplicate,0.5532942965415306,True,Apply tapered VAT on turnover over £85k & reduce VAT on food for hospitality,false duplicate: related topic,"related open petition on hospitality VAT, different mechanism"
+766759,published,duplicate,0.7504724888588856,False,Set out that UK entry for & diplomatic ties to any who use nuclear arms be ended,false duplicate: related topic,"related nuclear-weapons petition, different ask"
+761519,published,duplicate,0.3915897126905896,True,Car insurance annual premiums should not cost more than the vehicle value,false duplicate: related topic,"related car-insurance petition, different ask"
+766283,published,duplicate,0.5189769989756814,True,Make it a criminal offence for MPs to deliberately mislead the public,false duplicate: related topic,"related MP-accountability petition, different remedy"
+760967,published,duplicate,0.4331043935579898,True,Legalise and regulate cannabis for adults across the United Kingdom,false duplicate: related topic,cannabis is a frequently repeated topic; no close open petition
+770608,published,no-action,0.3277298814964698,True,Review Emergency Veterinary Care for Birds and Exotic Pets in the UK,no clear reason,clear ask; predicted no-action at low confidence
+776417,published,duplicate,0.48101187858478284,True,Limit MPs' early resignation to specific circumstances & impose penalties,false duplicate: related topic,"related resigned-MPs petition, different ask"
+764599,published,duplicate,0.377232751989969,True,Give £500 of credits to full-time workers to spend in UK independent businesses,no clear reason,no close open petition; low confidence
+776964,published,duplicate,0.6505559899082657,True,Review Accessibility Standards for Disabled Guests at Concert Venues,false duplicate: related topic,"related disabled-access petition, different setting"
+768457,published,duplicate,0.39474662735963156,True,Ban AI use with intent to discriminate against minorities & spread extremism,false duplicate: related topic,"related AI petition, different harm"
+749459,published,duplicate,0.6668573580530183,True,Stricter Sentences for Serious Offenders and Improved Community Safety,false duplicate: related topic,"related justice petition, broader ask"
+767397,published,duplicate,0.5681206458814864,True,Ban 'scalping' of items for short term resale at inflated prices.,false duplicate: related topic,"related reselling-bots petition, close to a duplicate"
+763625,published,duplicate,0.7983776150865521,False,Ban postal voting except for those with severe disabilities,questionable label,"near-identical open petition on postal votes, yet published"
+751772,duplicate,published,0.8697107908616292,False,Requiring drivers to stop and report any road traffic collisions involving a cat,duplicate missed: clear match,linked petition is the closest open one
+774562,duplicate,published,0.7738655713849545,False,National Workplace Heat Alert System with Enforceable Work Restrictions,duplicate missed: clear match,same ask as the linked maximum-temperature petition
+766820,duplicate,no-action,0.649730034602686,True,Vote to abolish the UK monarchy & change to a true & secular democratic republic,duplicate missed: clear match,linked monarchy referendum petition asks the same
+776370,duplicate,published,0.745015874988341,True,Have free drink and bottle covers available in every bar and restaurant.,duplicate missed: clear match,linked petition is the closest open one
+753345,duplicate,published,0.4896735360560463,True,Create a New Independent Skilled Worker Visa Route,duplicate missed: loose link,linked work-permit petition is only broadly related
+762910,duplicate,published,0.8525811324214296,False,Revoke permission for US to use UK bases in Operation Epic Fury,duplicate missed: clear match,linked petition is the closest open one
+752302,duplicate,no-action,0.5189525140661572,True,Make breaching a political manifesto illegal,duplicate missed: clear match,same ask as the linked manifesto petition; very short text
+768542,duplicate,no-action,0.48262029363696984,True,change the law to ensure that road tax is used exclusively for roads,duplicate missed: clear match,same ask as the linked road-tax petition
+765856,duplicate,published,0.7828953586348117,False,Make it a criminal offence to fail to stop after hitting a domestic pet,duplicate missed: clear match,linked petition is the closest open one; confident miss
+769083,duplicate,published,0.5708984374785201,True,Extend the law on reporting road traffic collisions with animals to include cats,duplicate missed: clear match,same ask as the linked cat-collision petition
+768567,duplicate,no-action,0.5738050759312425,True,Change For children with Special Educational Needs.,duplicate missed: loose link,linked assessment petition is only broadly related
+774700,duplicate,no-action,0.39684120104824994,True,Close all English schools due to the extreme heatwave,duplicate missed: loose link,linked to a classroom-temperature petition; broader topic
+765674,duplicate,published,0.6272894882953098,True,VAT reclaim on materials extended to refurbishment / grade listed buildings.,duplicate missed: clear match,linked petition is the closest open one
+757907,duplicate,irrelevant,0.7241969876718363,True,Students keep phones on and near them,duplicate missed: clear match,linked petition is the closest open one
+775801,duplicate,published,0.8590854950184242,False,Exclude sexual offenders from automatic early release schemes,duplicate missed: clear match,linked petition is the closest open one; confident miss
+767163,duplicate,published,0.6663269956364551,True,Ban nation wide horse racing.,duplicate missed: clear match,linked petition is the closest open one
+754104,duplicate,published,0.4874459280369832,True,introduce mandatory electrician licensing restrict sale of electrical materials,duplicate missed: clear match,linked petition is the closest open one
+774662,duplicate,no-action,0.349727325070651,True,Close school during red temperature warnings,duplicate missed: loose link,linked to a classroom-temperature petition; broader topic
+777872,duplicate,published,0.5340365678958781,True,Extend mandatory car park grace periods from 10 to 15 minutes,duplicate missed: clear match,linked petition is the closest open one
+762611,duplicate,no-action,0.5504648315894477,True,Address pot hole situation in uk roads. These are extremely dangerous,duplicate missed: clear match,same ask as the linked pothole petition
+762260,duplicate,irrelevant,0.41878082304049785,True,Lower the cost of pet insurance in the UK,duplicate missed: loose link,linked vet-care petition is only broadly related
+764884,duplicate,published,0.47054271187267344,True,Get a full refund from France with penalties for failures to stop boats,duplicate missed: loose link,linked France-deal petitions are only broadly related
+751741,duplicate,published,0.6283672241385706,True,Keep the 5 year ILR pathway for workers in roles below RQF 6 care-worker,duplicate missed: clear match,linked petition is the closest open one
+775011,duplicate,already-happening,0.4564154455252377,True,Close schools if it is over 28 degrees,duplicate missed: loose link,linked to a classroom-temperature petition; broader topic
+759136,duplicate,published,0.7525940583890711,False,Change your definition of carers allowance to “carers supplement”.,duplicate missed: clear match,linked petition is the closest open one
+757897,duplicate,published,0.6952797667153059,True,Increase The Lifetime ISA House Price Cap to Reflect Inflation,duplicate missed: clear match,linked petition is the closest open one
+768158,duplicate,published,0.6577818047097674,True,Preserve secondary schools’ freedom to set their own mobile phone policies,questionable label,no valid link; the closest open petition asks the opposite
+753368,duplicate,published,0.9045357660091613,False,Clear non-numeric labelling for Halal meat,duplicate missed: clear match,same ask as the linked meat-labelling petition; confident miss
+764001,duplicate,irrelevant,0.5902402782236353,True,Introduce baby boxes like in Scotland across the UK,duplicate missed: clear match,linked petition is the closest open one
+777205,irrelevant,published,0.9012192139482416,False,Ask the FA to improve England team preparation with year-round training camps,who is responsible,"the FA decides, not the Government"
+769647,irrelevant,published,0.9310812715494253,False,Create a free and accessible NHS period tracking app,who is responsible,an NHS app; moderators treat it as outside direct Government responsibility
+760970,irrelevant,published,0.3945762421572466,True,Require judges to follow the clear wording of Acts of Parliament,who is responsible,the courts interpret law; judicial independence
+768755,irrelevant,no-action,0.5346808644996186,True,The removal of “Drive Smart” and other black boxes for those on motability,who is responsible,"Motability scheme, not the Government"
+755724,irrelevant,duplicate,0.595186971040263,True,Revive the National tradition of Ringing in the New Year instead of fireworks.,who is responsible,New Year events are not Government business; fireworks is a repeated topic
+758115,irrelevant,published,0.8560780289814327,False,Allow for more personal expression for pupils of UK secondary schools.,who is responsible,school policies are set by schools
+771214,irrelevant,published,0.8936027724993867,False,Ban beehives in public spaces & require safety signage to prevent attacks.,who is responsible,beehives in public spaces: not the Government's direct responsibility
+762401,irrelevant,published,0.8825222591964438,False,Review the introduction of kick-ins and dribble ons in grass roots football.,who is responsible,the FA sets football rules
+755211,irrelevant,local,0.49821819979231163,True,Make the sausage roll a main in a Tesco meal deal,who is responsible,a private company (Tesco)
+768656,irrelevant,published,0.7926591735126132,False,Create serving military/veteran airport lounges,who is responsible,airports are private operators
+772031,irrelevant,local,0.5867079904498762,True,Hold national finals for Eurovision,who is responsible,the BBC runs the Eurovision selection
+762753,irrelevant,published,0.8999838042033687,False,Require automatic Whole Life Orders for premeditated murder,questionable label,sentencing law is Parliament's job; the label is hard to explain
+758844,irrelevant,duplicate,0.4199227891451738,True,Give teachers time off to attend their own children’s school events,who is responsible,employers and schools decide
+771023,irrelevant,local,0.846429264536842,False,STOP Alder hey Children’s Hospital Liverpool from closing down ward 4C,who is responsible,an NHS trust decision (irrelevant vs local boundary)
+752325,irrelevant,duplicate,0.6183815644785368,True,Provide winter and summer essentials for all primary school children in the UK.,who is responsible,education is devolved for a UK-wide ask
+770373,irrelevant,local,0.5244635061214937,True,Get the Lancashire Hotpots to represent the country at the next Eurovision,who is responsible,the BBC chooses the Eurovision act
+764126,irrelevant,duplicate,0.9161052534480452,False,Let secondary schools start later in the day.,questionable label,a similar open petition on school start times was published
+774248,irrelevant,duplicate,0.9661057593625754,False,General Election in the event that Kier Starmer resigns as Prime Minister,questionable label,a similar open general-election petition was published
+763195,irrelevant,local,0.6011243884765745,True,Revert the number on the Hogwarts Express in the new HP series from 6989 to 5972,who is responsible,a private TV production (HBO)
+756018,no-action,duplicate,0.45086853710891417,True,Parliament to scrutinise the Prime Minister's application of international law.,vague or no clear request,"asks for scrutiny, no specific action"
+770852,no-action,duplicate,0.3589906551858543,True,Dangerous high temperature schools / colleges,vague or no clear request,"describes a problem, no clear request"
+771026,no-action,duplicate,0.9393017249653625,False,Don't Rejoin the European Union,vague or no clear request,asks the Government not to do something it is not doing
+775840,no-action,duplicate,0.7163380202462893,True,The 6/7/26 should be a nationwide bank holiday for the England game at 1am.,needs current policy knowledge,one-off bank holiday at short notice; needs knowledge of Government practice
+769883,no-action,irrelevant,0.3165144192247233,True,Do NOT Trial Digital ID on the Isle Of Wight,needs current policy knowledge,needs knowledge of whether a trial is planned
+761480,no-action,irrelevant,0.49187762294806187,True,Ask UK supermarkets to offer optional cost breakdown receipts,vague or no clear request,"asks supermarkets, not the Government"
+766199,no-action,duplicate,0.43734393282898654,True,Assess and act in response to Israel’s discriminatory death penalty law.,vague or no clear request,asks for an assessment rather than an action
+756655,no-action,duplicate,0.8110186275885961,False,Legislate protective laws around trans people consequential to the court ruling,vague or no clear request,vague request for 'protective laws'
+751759,no-action,published,0.7237824608757335,True,Oppose proposed statutory requirement that schools store or pouch smartphones,vague or no clear request,asks the Government not to act on an undecided plan
+776607,no-action,duplicate,0.45369217229159065,True,An elected government needs to keep its prime minister for a minimum of 3 years,questionable label,a specific proposal; the label is hard to explain
+769967,no-action,duplicate,0.955018369021252,False,Public no confidence of government demanding a general election with in 50 days,vague or no clear request,several muddled requests
+762771,no-action,duplicate,0.8215478801640331,False,Abolish unfair school policies that force students to conform to a certain look,questionable label,a similar open uniform petition existed; no-action vs duplicate
+758037,no-action,duplicate,0.5155612474312692,True,Abolish Secure Borders UK,needs current policy knowledge,needs knowledge that no such body exists
+768048,no-action,published,0.7997751931630751,False,The government should not introduce a ban on smoking for people born after 2008,vague or no clear request,asks the Government not to act
+771283,no-action,irrelevant,0.6583737759589668,True,The right for Yemeni nation to wear the Janbiah during Eid/official festivals,vague or no clear request,"asks for recognition, no clear action"
+766880,no-action,published,0.9526984422155161,False,Allow review of refused immigration and asylum cases after 10 years,questionable label,a clear ask; the label is hard to explain
+770681,no-action,duplicate,0.4784409209530596,True,We want legislation for mandatory sentencing in all rape cases in the UK.,questionable label,a clear ask; the label is hard to explain
+752839,no-action,duplicate,0.4893757350653641,True,Call for an immediate investigation into black hole budget allegations,vague or no clear request,vague request to investigate allegations
+757686,no-action,duplicate,0.8730697509191718,False,school pupils not have to wear school uniforms instead,vague or no clear request,"very short text, no clear request"
+778023,no-action,published,0.7043472361238347,True,"Nothing About Us, Without Us",vague or no clear request,"a slogan, no specific action"
+756332,no-action,duplicate,0.618006733617841,True,Introduce a team that specialises in civilian privacy and anti-censorship.,vague or no clear request,vague request for a team
+775767,no-action,duplicate,0.9207320973463322,False,To give a national bank holiday on monday 6th July for England v Mexico,needs current policy knowledge,one-off bank holiday at short notice; needs knowledge of Government practice
+767406,no-action,irrelevant,0.5512899639520192,True,students in year 7 can't start a conversation,vague or no clear request,not a real request
+766830,honours,duplicate,0.7215113217013093,True,Request a vote of no confidence in the Labour Party and elect a new government,honours and appointments,a no-confidence vote counts as an appointments matter
+757093,honours,published,0.778603778870434,False,Replace the Attorney General as we do not think peers can serve in the position,honours and appointments,replacing the Attorney General is an appointment
+772279,honours,published,0.6354447040301496,True,Hold a National Referendum on Confidence in the Government,honours and appointments,a confidence vote counts as an appointments matter
+754159,honours,no-action,0.4368175190876992,True,Make at least half of knighthoods about genuine acts of heroism.,honours and appointments,"about knighthoods, yet predicted no-action"
+760758,honours,duplicate,0.6162575997899987,True,Should Shabana Mahmood step down over changes affecting migrants’ ILR rights?,honours and appointments,asks a minister to step down (appointment)
+764670,already-happening,duplicate,0.6843683420704895,True,Protect and keep Cash in circulation in the UK in perpetuity.,needs current policy knowledge,the Government has already committed to protecting cash
+772519,already-happening,published,0.943048330644988,False,Title Change the law to require asylum claims in the first safe country,needs current policy knowledge,needs knowledge of current asylum legislation
+761713,already-happening,published,0.38751259046446285,True,How many more deaths? Call on government to publish clear holiday risk warnings.,needs current policy knowledge,travel advice already exists
+756154,already-happening,duplicate,0.4606407235263519,True,Support self-determination in Greenland & Denmark against a takeover by the USA.,needs current policy knowledge,the Government already supports Greenland's self-determination
+778054,already-happening,published,0.5934509105952281,True,Call a COBRA meeting over wildfire risk,needs current policy knowledge,needs knowledge that COBRA already met
+770828,already-happening,no-action,0.504029063663931,True,Reform judicial accountability and restrict political affiliations of judges.,needs current policy knowledge,needs knowledge of current judicial rules
+756734,local,irrelevant,0.7189350214031229,True,Put in sleeping policeman at bottom of Dollerie Terrace heading out of Crieff,who is responsible,a road in Scotland: local and devolved
+779617,local,published,0.9101985727844334,False,Provide emergency funds to remediate Arnold's Field and strengthen council power,who is responsible,a named local site; the council's job
+772559,local,published,0.7452511201167162,True,No Community Should Be Erased from Staffordshire Libraries,who is responsible,a county library service; local authority
+774945,local,irrelevant,0.6528479169988185,True,Mandatory installation Aircon on busses in London and south of the UK,who is responsible,buses are local / TfL responsibility
+777020,local,no-action,0.5435899305731445,True,help get a slow down sign outside a learning disability home,who is responsible,a road sign; the council's job
+758905,local,published,0.6456803807631485,True,Create a superloop bus from Bluewater to Lewisham,who is responsible,a TfL bus route
