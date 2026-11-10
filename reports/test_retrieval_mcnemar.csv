@@ -1,0 +1,4 @@
+comparison,only first in top 5,only second in top 5,p_value
+hybrid vs bm25,158,25,8.142186753086585e-25
+hybrid vs minilm,37,13,0.000936222910851825
+minilm vs bm25,164,55,8.806082527818206e-14

@@ -1,0 +1,5 @@
+model,ece
+"DistilRoBERTa, raw (temperature 1)",0.1371
+"DistilRoBERTa, temperature 1.48",0.052
+"TF-IDF + SVM, Platt",0.0487
+final model,0.0136

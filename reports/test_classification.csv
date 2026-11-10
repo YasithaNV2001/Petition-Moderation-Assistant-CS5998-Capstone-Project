@@ -1,0 +1,7 @@
+model,macro_f1,95% CI,accuracy,duplicate_f1,accept_vs_reject_f1,ece,validation_macro_f1
+TF-IDF + SVM,0.4148,0.391–0.435,0.6372,0.4707,0.7629,,0.4452
+"TF-IDF + SVM, fusion (text only)",0.5229,0.497–0.544,0.6831,0.6018,0.8156,0.0363,0.5046
+"TF-IDF + SVM, fusion + similarity",0.5524,0.527–0.574,0.7224,0.7073,0.8333,0.0095,0.5592
+DistilRoBERTa,0.5213,0.497–0.544,0.6804,0.4911,0.7993,,0.556
+"DistilRoBERTa, fusion (text only)",0.5686,0.544–0.591,0.7339,0.6546,0.8602,0.0244,0.5752
+"DistilRoBERTa, fusion + similarity (final)",0.5835,0.558–0.606,0.7598,0.7442,0.8741,0.0136,0.6065

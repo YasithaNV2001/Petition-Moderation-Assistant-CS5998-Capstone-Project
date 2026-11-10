@@ -1,0 +1,6 @@
+comparison,only first right,only second right,p_value,significant (p < 0.05)
+final vs raw DistilRoBERTa,808,317,6.339180959472373e-50,True
+similarity features (DistilRoBERTa),380,220,6.611863622319214e-11,True
+similarity features (TF-IDF + SVM),422,179,1.352672020248495e-23,True
+DistilRoBERTa vs TF-IDF + SVM (raw),612,345,4.939940157332288e-18,True
+final vs baseline,1146,388,6.815274834600927e-87,True

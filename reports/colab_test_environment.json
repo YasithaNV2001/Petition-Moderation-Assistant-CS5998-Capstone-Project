@@ -1,0 +1,25 @@
+{
+  "notebook": "colab_test_logits",
+  "date_utc": "2026-11-08T16:59:58+00:00",
+  "runtime": "Tesla T4",
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6"
+  },
+  "code_commit": "32c4221",
+  "rows": {
+    "test": 6182,
+    "out_of_scope": 886
+  },
+  "validation_check": {
+    "max_logit_difference": 0.0,
+    "same_predicted_class": 1.0
+  },
+  "minutes": {
+    "test": 0.6,
+    "out_of_scope": 0.1
+  }
+}

@@ -48,9 +48,12 @@ Then run the notebooks in order, with the `.venv` Python as the kernel (in VS Co
 | `notebooks/06_baseline_retrieval.ipynb` | BM25 duplicate retrieval over the time-aware pools, Recall@k and MRR on validation |
 | `notebooks/07_embedding_retrieval.ipynb` | duplicate retrieval with MiniLM / mpnet sentence vectors and a BM25 + MiniLM hybrid, compared with BM25 |
 | `notebooks/08_fusion.ipynb` | calibration, similarity features, fusion model, 2×2 comparison, review threshold, frozen configuration |
+| `notebooks/colab_test_logits.ipynb` | Google Colab: the fine-tuned DistilRoBERTa scores the test and out-of-scope petitions (labels are not read) |
+| `notebooks/09_final_evaluation.ipynb` | the one evaluation on the test split: 2×2 comparison with confidence intervals, McNemar tests, calibration, review flag, retrieval on both pools, out-of-scope test |
 
-The two Colab notebooks read the files of `data/processed/` from a Google Drive folder (`DRIVE_DIR` in their first
-cell), take `src/` from this repository and write their outputs back to Drive.
+The three Colab notebooks (`colab_gpu`, `05_baseline_classifier`, `colab_test_logits`) read the files of
+`data/processed/` from a Google Drive folder (`DRIVE_DIR` in their first cell), take `src/` from this repository and
+write their outputs back to Drive.
 
 ## Status
 

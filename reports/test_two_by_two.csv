@@ -1,0 +1,3 @@
+,text only,+ similarity,gain
+TF-IDF + SVM,0.5229,0.5524,0.0295
+DistilRoBERTa,0.5686,0.5835,0.0149
